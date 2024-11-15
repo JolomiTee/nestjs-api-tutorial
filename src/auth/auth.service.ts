@@ -1,5 +1,4 @@
 import { Injectable } from "@nestjs/common";
-
 @Injectable({})
 	// service is where the business logic is offloaded
 export class AuthService {
