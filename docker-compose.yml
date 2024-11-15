@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  bird_nest:
+    image: postgres:13
+    ports:
+      - 5434:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ICELAKE1029
+      POSTGRES_DB: bird
+    networks:
+      - joloos_nest
+networks:
+  joloos_nest:
