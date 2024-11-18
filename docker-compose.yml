@@ -1,4 +1,3 @@
-version: '3.8'
 services:
   bird_nest:
     image: postgres:13
